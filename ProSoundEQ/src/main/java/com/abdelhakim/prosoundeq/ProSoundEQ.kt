@@ -63,13 +63,7 @@ class ProSoundEQ : AppCompatActivity() {
 
 
 
-        binding.logo.setOnClickListener {
-            try {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.abdelhakim.mplayerlite")))
-            } catch (e: ActivityNotFoundException) {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.abdelhakim.mplayerlite")))
-            }
-        }
+    
 
         val switchEq = binding.switchEq
         switchEq.isChecked = settings.getBoolean("ENABLED", false)
