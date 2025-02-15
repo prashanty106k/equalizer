@@ -179,21 +179,7 @@
             android:orientation="horizontal"
             android:paddingBottom="5dp">
 
-            <TextView
-                android:textColor="@color/white"
-                android:fontFamily="@font/pro_sound_eq_freedom"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal|center_vertical"
-                android:paddingStart="5dp"
-                android:paddingEnd="5dp"
-                android:text="Powered by" />
-
-            <ImageView
-                android:src="@drawable/pro_sound_eq_logo"
-                app:tint="@color/white"
-                android:layout_width="80dp"
-                android:layout_height="40dp"/>
+            
         </LinearLayout>
 
     </LinearLayout>
@@ -243,7 +229,7 @@
             android:textSize="18sp"
             android:paddingStart="5dp"
             android:paddingEnd="5dp"
-            android:text="ProSoundEQ" />
+            android:text="Equalizer" />
 
         <Switch
             android:id="@+id/switch_eq"
