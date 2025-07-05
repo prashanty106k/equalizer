@@ -180,6 +180,9 @@ class ProSoundEQ : AppCompatActivity() {
                 verticalSeekbar.tag = index
                 //verticalSeekbar.progressDrawable = ContextCompat.getDrawable(this,R.drawable.seekbar_style_equalizer)
                 //verticalSeekbar.thumb = ContextCompat.getDrawable(this, R.drawable.thumb_equalizer)
+                verticalSeekbar.progressDrawable = ContextCompat.getDrawable(this, R.drawable.eq_seekbar_progress)
+                verticalSeekbar.thumb = ContextCompat.getDrawable(this, R.drawable.eq_seekbar_thumb)
+
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
                     verticalSeekbar.maxHeight = 1
                 }
